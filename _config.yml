@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Henry.Blog
+title: 'Henry.Blog'
 subtitle: ''
 description: 'Henry的个人博客'
-keywords: Henry,洪瑞,白,beforemount,前端,iOS,Node
+keywords: Henry
 author: Henry
-language: zh
+language: zh-CN
 timezone: ''
 
 # URL
@@ -93,9 +93,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/Rayzworld/henry.github.io.git
+  branch: [master]
